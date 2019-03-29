@@ -1,0 +1,28 @@
+@import './_Main.scss';
+
+.Skill {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-top: 1px solid gray;
+  height: 100%;
+  &__title {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+  }
+  &__code {
+    margin: 100px 0 100px 50px;
+    width: 800px;
+    height: 350px;
+    border-radius: 20px;
+    overflow: hidden;
+    opacity: 0.9;
+    transition: opacity 1s, transform 0.7s ease-in;
+  }
+  &__code:hover {
+    opacity: 1;
+    transform: scale(1.1);
+    box-shadow: 1px 4px 9px 2px rgb(59, 60, 114);
+  }
+}

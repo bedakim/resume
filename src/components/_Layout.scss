@@ -1,0 +1,49 @@
+@import './_Main.scss';
+
+.Header {
+  width: 100%;
+  &__header {
+    border-bottom: 1px solid gray;
+    height: 250px;
+    background-color: white;
+  }
+  &__description {
+    height: 400px;
+    background-color: #dbd7d6;
+    .proimg {
+      position: absolute;
+      width: 250px;
+      height: 250px;
+      border-radius: 250px;
+      left: 41%;
+      top: 8%;
+    }
+    .description {
+      width: 50%;
+      margin: 0 auto;
+      text-align: center;
+      padding-top: 80px;
+    }
+  }
+  &__info {
+    padding-top: 20px;
+    background-color: #f9f4f4;
+    height: 80px;
+    color: grey;
+    .icon {
+      display: flex;
+      justify-content: space-around;
+      margin: 0 auto;
+      text-align: center;
+      width: 65%;
+    }
+  }
+}
+.Footer {
+  border-top: 1px solid gray;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 30vh;
+  background-color: #dbd7d6;
+}

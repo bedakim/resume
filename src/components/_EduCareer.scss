@@ -1,0 +1,30 @@
+@import './_Main.scss';
+
+.EC {
+  height: 100%;
+  &__title {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+  }
+  &__description {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 20px 40px;
+    .edu {
+      width: 500px;
+      display: inline-block;
+
+      padding: 0;
+    }
+    .car {
+      width: 500px;
+      margin-left: 20px;
+      padding: 0;
+      display: inline-block;
+
+      // background-color: red;s
+    }
+  }
+}
