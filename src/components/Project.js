@@ -106,7 +106,6 @@ class Baseball extends Component {
     return (
       <>
         <Nav />
-
         <div className="Baseball">
           <div className="Baseball__bg">
             <div className="Baseball__info">
