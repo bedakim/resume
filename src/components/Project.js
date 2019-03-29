@@ -1,23 +1,24 @@
 import React, { Component } from 'react';
 import { Route } from 'react-router-dom';
 import Footer from './Footer';
-import Nav from './Nav';
 import './_Main.scss';
 import Logo from './Logo';
+
 class Baeminchan extends Component {
   render() {
     return (
       <>
         <Logo />
         <div className="Baeminchan">
-          <div className="Baeminchan__bg">
-            <div className="Baeminchan__info">
-              <h1 className="Baeminchan__title">Baeminchan Copy</h1>
-              <span className="Baeminchan__role">
-                <strong>ROLE :</strong> Front-end, SEO, Design /
-              </span>
-              <span className="Baeminchan__date"> 2018.12.03 ~ 2018.12.20</span>
-            </div>
+          <div className="Baeminchan__info">
+            <h1 className="Baeminchan__title">Baeminchan Copy</h1>
+            <h3>
+              <a href="https://baeminchan.netlify.com">Page</a>
+            </h3>
+            <span className="Baeminchan__role">
+              <strong>ROLE :</strong> Front-end, CartPage, MyPage /
+            </span>
+            <span className="Baeminchan__date"> 2018.12.03 ~ 2018.12.20</span>
           </div>
           <article className="Baeminchan__article">
             <h2 className="Baeminchan__h2">Experience</h2>
@@ -27,7 +28,7 @@ class Baeminchan extends Component {
                 요약 및 구현
               </li>
               <li>
-                백엔드와 IOS 총 6명이 한팀이 되어 기획, 디자인, 개발, 서비스배포
+                백엔드와 IOS가 한팀이 되어 기획, 디자인, 개발, 서비스배포
                 사이클을 경험
               </li>
               <li>
@@ -37,23 +38,11 @@ class Baeminchan extends Component {
                 기름.
               </li>
               <li>
-                <strong>REST API </strong>사용.
-              </li>
-              <li>
                 SPA를 위한 <strong>React router </strong>사용.
               </li>
               <li>
-                메인메이지와 인증페이지를 구현하며, props를 통해 전달하지 않고,
-                원하는 component에 직접 전달하는 방식의{' '}
-                <strong>context API</strong>를 사용.
-              </li>
-              <li>
-                <strong>Facebook Login API</strong>를 사용하여, SNS Login 기능
-                구현.
-              </li>
-              <li>
-                <strong>Vanilla JavaScript</strong>를 사용하여, 메인 slide show
-                구현.
+                <strong>사용기술:</strong> React, Scss, React-Strap, Git,
+                GitHub, Slack
               </li>
             </ol>
           </article>
@@ -67,16 +56,17 @@ class Lotte extends Component {
   render() {
     return (
       <>
-        <Nav />
+        <Logo />
         <div className="Lotte">
-          <div className="Lotte__bg">
-            <div className="Lotte__info">
-              <h1 className="Lotte__title">Grim</h1>
-              <span className="Lotte__role">
-                <strong>ROLE :</strong> Front-end, SEO, Design /
-              </span>
-              <span className="Lotte__date"> 2018.11.07 ~ 2018.11.09</span>
-            </div>
+          <div className="Lotte__info">
+            <h1 className="Lotte__title">Lotte</h1>
+            <h3>
+              <a href="https://gifted-hypatia-6969f6.netlify.com">Page</a>
+            </h3>
+            <span className="Lotte__role">
+              <strong>ROLE :</strong> Front-end, Single-project/
+            </span>
+            <span className="Lotte__date"> 2018.11.07 ~ 2018.11.09</span>
           </div>
           <article className="Lotte__article">
             <h2 className="Lotte__h2">Experience</h2>
@@ -91,11 +81,13 @@ class Lotte extends Component {
                 사용법을 이해하고, 버그를 개선함으로써 어려움을 극복함
               </li>
               <li>
-                <strong>Bootstrap 라이브러리</strong>를 활용하여 뷰페이지 구성
+                <strong>사용기술:</strong> HTML5, CSS3, JavaScript, Glitch, Git,
+                GitHub
               </li>
             </ol>
           </article>
         </div>
+        <Footer />
       </>
     );
   }
@@ -105,16 +97,17 @@ class Baseball extends Component {
   render() {
     return (
       <>
-        <Nav />
+        <Logo />
         <div className="Baseball">
-          <div className="Baseball__bg">
-            <div className="Baseball__info">
-              <h1 className="Baseball__title">Baseball</h1>
-              <span className="Baseball__role">
-                <strong>ROLE :</strong> 기획, 디자인, Front-end /
-              </span>
-              <span className="Baseball__date"> 22018.10.25 ~ 2018.10.27</span>
-            </div>
+          <div className="Baseball__info">
+            <h1 className="Baseball__title">Baseball</h1>
+            <h3>
+              <a href="https://github.com/jyansol/game">Page</a>
+            </h3>
+            <span className="Baseball__role">
+              <strong>ROLE :</strong>Front-end, hackathon-project/
+            </span>
+            <span className="Baseball__date"> 2018.10.25 ~ 2018.10.27</span>
           </div>
           <article className="Baseball__article">
             <h2 className="Baseball__h2">Experience</h2>
@@ -126,12 +119,17 @@ class Baseball extends Component {
                 협업과정에서 GitHub, Google Drive, Slack 등을 활용하여 협업
               </li>
               <li>
-                사용자에게 필요한 최소한의 기능구현과 기초 계획과 일정관리의
+                사용자에게 필요한 최소한의 기능구현(MVP), 기초 계획, 일정관리의
                 중요성을 느낄 수 있었던 프로젝트
+              </li>
+              <li>
+                <strong>사용기술:</strong> HTML5, CSS3, JavaScript, DOM API,
+                Git, GitHub
               </li>
             </ol>
           </article>
         </div>
+        <Footer />
       </>
     );
   }
